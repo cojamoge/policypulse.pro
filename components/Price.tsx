@@ -1,5 +1,6 @@
 "use client";
 import config from "@/config/general";
+import Link from "@/node_modules/next/link";
 
 const Price = () => {
   return (
@@ -25,9 +26,11 @@ const Price = () => {
               <span className="text-4xl font-bold text-activeButton">
                 {config.contents.price.price}/month
               </span>
-              <button className="bg-primary rounded-md py-4 px-16 text-black uppercase font-medium text-base">
-                Get started
-              </button>
+              <Link href={config.subscribeForm} className="bg-primary rounded-md py-4 px-16 text-black uppercase font-medium text-base">
+                Join Waitlist
+              </Link>
+
+              
             </div>
           </div>
         </div>

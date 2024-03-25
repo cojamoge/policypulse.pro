@@ -3,6 +3,8 @@ const config = {
     title: "PolicyPulse | Premier EU Antitrust Update Platform",
     description: "Unlock the power of timely, AI-curated updates in EU antitrust law with PolicyPulse. Elevate your legal advisory or compliance strategy. Join our waiting list for exclusive early access.",
     subscribeForm: "https://dashboard.mailerlite.com/forms/881827/116530378895787940/share",
+    commentForm: "https://dashboard.mailerlite.com/forms/881827/116811653970920669/share",
+
 
     socials: {
         twitter: "https://x.com/beratbozkurt0",
@@ -87,3 +89,4 @@ const config = {
 }
 
 export default config;
+

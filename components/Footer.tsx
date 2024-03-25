@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
+
   return (
     <div className="mb-15">
       <div className="bg-grayBackground rounded-md">
@@ -37,6 +38,17 @@ const Footer = () => {
               <li>Privact policy</li>
             </ul>
           </div> */}
+          <div className="bg-activeButton text-white rounded py-2">
+                <Link href={config.commentForm} passHref legacyBehavior>
+                  <a
+                    className="px-5 py-2 rounded"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Let Us Know Your View
+                  </a>
+                </Link>
+                </div>
         </div>
         <div className="w-11/12 xl:w-[1050px] mx-auto pb-16">
           © 2024 - 
