@@ -1,109 +1,89 @@
 const config = {
-    domain: "theproduct.com",
-    title: "Waitlist Page | The Product",
-    description: "Elevate your texts with the perfect emojis. Usemoji.app is coming soon! Join the waiting list for updates and exclusive access.",
-    subscribeForm: "https://dashboard.mailerlite.com/forms/631411/101265918935434456/share",
+    domain: "policypulse.pro",
+    title: "PolicyPulse | Premier EU Antitrust Update Platform",
+    description: "Unlock the power of timely, AI-curated updates in EU antitrust law with PolicyPulse. Elevate your legal advisory or compliance strategy. Join our waiting list for exclusive early access.",
+    subscribeForm: "https://dashboard.mailerlite.com/forms/881827/116530378895787940/share",
 
     socials: {
         twitter: "https://x.com/beratbozkurt0",
     },
-
     contents: {
-        title: "Discover Your Ideal Experience with The Product",
-        markOfTitle: "The Product", // its for marking the title. The text must contain on title. If not, it will be ignored.
-        description: `Step into a realm of possibilities with The Product. Immerse yourself
-        in a shopping journey where intuitive features and cutting-edge design
-        come together to enhance your every selection.`,
+        title: "Navigate EU Antitrust with Unmatched Precision",
+        markOfTitle: "PolicyPulse",
+        description: `PolicyPulse redefines efficiency for legal professionals and businesses, offering frequent, AI-curated updates on EU antitrust law. Stay ahead with actionable insights that are precise and timely, tailored to your specific needs.`,
 
         about: [
             {
                 id: 1,
-                emoji: "💡",
-                title: "Innovative Design",
-                description: "The Product is designed to be a seamless experience for all users. Our team has worked tirelessly to create a platform that is both intuitive and visually stunning."
+                emoji: "🇪🇺",
+                title: "Exclusively EU Antitrust Focused",
+                description: "PolicyPulse is your dedicated channel for frequent updates on EU antitrust authorities and regulations, crafted for both legal professionals and businesses."
             },
             {
                 id: 2,
-                emoji: "🚀",
-                title: "Fast and Efficient",
-                description: "We understand that your time is valuable. That's why we've optimized The Product to be as fast and efficient as possible. Spend less time shopping and more time enjoying your purchases."
+                emoji: "🤖",
+                title: "AI-Powered Precision",
+                description: "Leverage our AI technology for the most relevant and concise updates, ensuring you get the information that matters, when it matters."
             },
             {
                 id: 3,
-                emoji: "🌎",
-                title: "Global Reach",
-                description: "The Product is available to users all around the world. No matter where you are, you can access our platform and discover the perfect product for you."
+                emoji: "⏰",
+                title: "Frequent Updates, Timely Insights",
+                description: "With several updates daily, PolicyPulse keeps you informed on the latest EU antitrust developments, helping you stay ahead with minimal delay."
             }
         ],
 
         howWorks: [
             {
-                title: "Install the extension",
-                description: "The Product is available as a browser extension. Simply install it and you're ready to go!"
+                title: "Early Access via Waiting List",
+                description: "Join our waiting list to secure your early access. Benefit from our AI-curated updates and ensure you're always in the loop."
             },
             {
-                title: "Select your text",
-                description: "Highlight any text on any website and The Product will automatically will find emoji that match your selection."
+                title: "Customize Your Feed",
+                description: "Tailor your updates with our filtering options, focusing on specific competition law issues that matter most to your practice or business."
             },
             {
-
-                title: "Personalize suggestions",
-                description: "Customize your emoji suggestions based on your preferences and writing style."
-            },
-            {
-                title: "Seamless integration",
-                description: "Enjoy effortless integration with your browser, making emoji suggestions readily available."
-            },
-            {
-                title: "Copy and paste",
-                description: "Once you've selected your emoji, simply copy it and paste it wherever you like. It's that easy!"
+                title: "Empower Your Decisions",
+                description: "Utilize our succinct summaries to inform your legal strategies or compliance efforts, making each decision more impactful."
             },
         ],
 
         price: {
-            description: "Unlock endless emoji possibilities with our monthly subscription. Cancel anytime, stress-free!",
-            price: "9$",
+            description: "Gain access to frequent, precise updates on EU antitrust law for just $19 per month. PolicyPulse is your partner in staying informed and proactive.",
+            price: "$19 per month",
 
-            advantages: ['Cancel anytime.', 'Analyze text emotions for suitable emoji suggestions.', 'Unlimited emoji access: Explore vast library.', 'Bullet points yield perfect results.', 'Ease of use.']
+            advantages: [
+                'Multiple updates daily from all EU competition authorities.',
+                'Concise, AI-curated content for efficiency and precision.',
+                'Customizable updates by specific competition law issues.',
+                'Timely insights to keep you informed with minimal delay.',
+                'Perfect for legal professionals and businesses seeking an edge.'
+            ]
         },
 
         faq: [
             {
-                question: "What is The Product?",
-                answer: "The Product is a browser extension that suggests emoji based on your text selection. It's designed to make your online experience more fun and engaging."
+                question: "What sets PolicyPulse apart?",
+                answer: "Our focus on frequent, precise updates on EU antitrust law, curated with advanced AI, makes PolicyPulse unparalleled for professionals and businesses alike."
             },
             {
-                question: "How do I install The Product?",
-                answer: "The Product is available as a browser extension. Simply install it and you're ready to go!"
-            },
-
-            {
-                question: "How do I use The Product?",
-                answer: "Highlight any text on any website and The Product will automatically will find emoji that match your selection."
+                question: "How current are the updates?",
+                answer: "PolicyPulse offers several updates daily, ensuring you're always equipped with the latest insights with only a minimal delay."
             },
             {
-                question: "Is The Product free?",
-                answer: "The Product is available as a monthly subscription. You can cancel anytime, stress-free!"
+                question: "Can I focus on updates relevant to me?",
+                answer: "Absolutely, PolicyPulse allows you to filter updates by specific issues, ensuring every piece of information you receive is directly applicable to your needs."
             },
             {
-                question: "Can I customize my emoji suggestions?",
-                answer: "Yes! You can personalize your emoji suggestions based on your preferences and writing style."
+                question: "What does PolicyPulse subscription cost?",
+                answer: "At an introductory rate of $19 per month, PolicyPulse provides comprehensive access to our frequent, AI-curated updates on EU antitrust regulations."
             },
             {
-                question: "Is The Product available globally?",
-                answer: "Yes! The Product is available to users all around the world."
-            },
-            {
-                question: "How do I cancel my subscription?",
-                answer: "You can cancel your subscription anytime. Simply go to your account settings and click 'cancel subscription'."
-            },
-            {
-                question: "How do I contact support?",
-                answer: "You can contact our support team by emailing support@theproduct.com."
+                question: "How do I join?",
+                answer: "Sign up through our waiting list via the subscribe form. You'll be notified as soon as PolicyPulse goes live."
             }
         ]
     }
 }
-
 
 export default config;

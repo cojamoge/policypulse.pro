@@ -11,13 +11,13 @@ const Footer = () => {
           <div className="flex flex-col gap-2">
             <Image
               src={"/logo.svg"}
-              width={180}
-              height={60}
+              width={108}
+              height={34.5}
               alt={config.title}
             />
             <p className="w-[300px] text-activeButton">{config.description}</p>
           </div>
-          <div>
+          {/* <div>
             <span className="uppercase text-[#8d8d8d] font-semibold">
               Links
             </span>
@@ -36,22 +36,16 @@ const Footer = () => {
               <li>Terms of services</li>
               <li>Privact policy</li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="w-11/12 xl:w-[1050px] mx-auto pb-16">
-          © 2023 -
+          © 2024 - 
           <Link
-            href="https://twitter.com/beratbozkurt0/status/1699164095994372577"
+            href="https://policypulse.pro"
             passHref
             legacyBehavior
           >
-            <a
-              target="_blank"
-              className="underline underline-offset-2"
-              rel="noopener noreferrer"
-            >
-              #buildinpublic
-            </a>
+            PolicyPulse
           </Link>
         </div>
       </div>
