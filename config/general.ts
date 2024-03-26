@@ -52,7 +52,7 @@ const config = {
 
         price: {
             description: "Gain access to frequent, precise updates on EU antitrust law for just $19 per month. PolicyPulse is your partner in staying informed and proactive.",
-            price: "$19 per month",
+            price: "$19",
 
             advantages: [
                 'Multiple updates daily from all EU competition authorities.',

@@ -57,7 +57,7 @@ const Footer = () => {
             passHref
             legacyBehavior
           >
-            PolicyPulse
+            PolicyPulse.pro
           </Link>
         </div>
       </div>

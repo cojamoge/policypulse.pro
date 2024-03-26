@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
-import Image from "next/image";
+import Image from "@/node_modules/next/image";
 // config
 import config from "@/config/general";
 // components
@@ -41,11 +41,11 @@ const Hero = () => {
         <Form />
       </div>
       <Image
-        src="/hero.jpg"
+        src="/main page.png"
         alt="hero"
         width={648}
         height={500}
-        className="rounded-sm xl:w-6/12 xl:max-w-[648px] w-11/12 h-max"
+        className="shadow-xl rounded-sm xl:w-6/12 xl:max-w-[648px] w-11/12 h-max"
       />
     </section>
   );
