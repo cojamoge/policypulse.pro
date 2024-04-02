@@ -1,13 +1,16 @@
-"use client";
 
-import { useMemo } from "react";
+
+"use client"
+
+// Assuming this file is located at components/Hero.js
+import React, { useMemo, useState } from "react";
 import Image from "@/node_modules/next/image";
-// config
 import config from "@/config/general";
-// components
 import Form from "./Form";
+import ImageModal from "./Atoms/ImageModal";
 
 const Hero = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const title = useMemo(() => {
     const findIndex = config.contents.title.search(config.contents.markOfTitle);
 
@@ -21,12 +24,11 @@ const Hero = () => {
       };
     }
     return { text: config.contents.title, mark: null };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [config.contents]);
 
   return (
     <section className="xl:flex-row flex-col flex items-center justify-center gap-7 sm:gap-14">
-      <div className="xl:w-5/12 w-11/12 xl:my-40 mt-40 flex flex-col gap-6">
+      <div className="xl:w-5/12 w-11/12 xl:my-40 mt-10 flex flex-col gap-6">
         <h1 className="min-w-[73%] sm:min-w-[300px] xl:min-w-[490px] xl:w-10/12 w-8/12 font-normal text-2xl sm:text-4xl text-black relative z-40">
           {title.text}
           {title.mark && (
@@ -40,12 +42,20 @@ const Hero = () => {
         </span>
         <Form />
       </div>
-      <Image
+      <div onClick={() => setIsModalOpen(true)} className="cursor-pointer">
+        <Image
+          src="/main page.png"
+          alt="hero"
+          width={648}
+          height={500}
+          className="shadow-xl rounded-sm xl:max-w-[548px] w-18/24 h-max"
+        />
+      </div>
+      <ImageModal
+        isOpen={isModalOpen}
         src="/main page.png"
-        alt="hero"
-        width={648}
-        height={500}
-        className="shadow-xl rounded-sm xl:w-6/12 xl:max-w-[648px] w-11/12 h-max"
+        alt="Enlarged hero image"
+        onClose={() => setIsModalOpen(false)}
       />
     </section>
   );
